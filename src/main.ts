@@ -126,6 +126,7 @@ function getBangredirectUrl() {
     return null;
   }
 
+  
   const match = query.match(/!(\S+)/i);
 
   const bangCandidate = match?.[1]?.toLowerCase();
