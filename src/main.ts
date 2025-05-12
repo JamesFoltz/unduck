@@ -4,7 +4,7 @@ import "./global.css";
 function noSearchDefaultPageRender() {
   const app = document.querySelector<HTMLDivElement>("#app")!;
 
-  const currentDefault = localStorage.getItem("default-bang") ?? "g";
+  const currentDefault = localStorage.getItem("default-bang") ?? "brave";
 
   app.innerHTML = `
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
