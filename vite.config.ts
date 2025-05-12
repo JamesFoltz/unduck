@@ -7,5 +7,5 @@ export default defineConfig({
       registerType: "autoUpdate",
     }),
   ],
-base: "/book-landing-page/"
+base: "/unduck/"
 });
