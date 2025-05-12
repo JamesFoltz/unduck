@@ -3179,13 +3179,13 @@ export const bangs = [
     u: "https://aitopics.org/search?q={{{s}}}",
   },
   {
-    c: "Research",
-    d: "www.duckduckgo.com",
+    c: "perplexity",
+    d: "perplexity.ai",
     r: 8351,
-    s: "Duck.ai",
+    s: "perplexity.ai",
     sc: "Reference",
     t: "ai",
-    u: "https://www.duckduckgo.com/?q={{{s}}}&ia=chat&bang=true ",
+    u: "https://www.perplexity.ai/search?q={{{s}}}",
   },
   {
     c: "News",
@@ -13441,7 +13441,7 @@ export const bangs = [
     r: 2971,
     s: "Brave Search",
     sc: "Google",
-    t: "brave",
+    t: "br",
     u: "https://search.brave.com/search?q={{{s}}}",
   },
   {
@@ -13450,7 +13450,7 @@ export const bangs = [
     r: 95,
     s: "Baseball-Reference",
     sc: "Reference",
-    t: "br",
+    t: "baseball",
     u: "http://www.baseball-reference.com/pl/player_search.cgi?search={{{s}}}",
   },
   {
