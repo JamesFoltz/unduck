@@ -4,7 +4,7 @@ import "./global.css";
 function noSearchDefaultPageRender() {
   const app = document.querySelector<HTMLDivElement>("#app")!;
 
-  const currentDefault = localStorage.getItem("default-bang") ?? "brave";
+  const currentDefault = localStorage.getItem("default-bang") ?? "br";
 
   app.innerHTML = `
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
@@ -91,7 +91,7 @@ function populateEngineDropdown(selectElement: HTMLSelectElement, currentDefault
     { t: "g", d: "Google"},
     { t: "ddg", d: "DuckDuckGo"},
     { t: "b", d: "Bing"},
-    { t: "brave", d: "Brave"},
+    { t: "br", d: "Brave"},
     { t: "y", d: "Yahoo"},
     { t: "yt", d: "YouTube"},
     { t: "w", d: "Wikipedia"},
